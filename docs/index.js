@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var PIXI = __webpack_require__(10);
 
 
-	var renderer = new PIXI.WebGLRenderer(800, 600);
+	var renderer = new PIXI.WebGLRenderer(document.body.clientWidth, document.body.clientHeight);
 	document.getElementById('app').appendChild(renderer.view);
 	var stage = new PIXI.Container();
 
@@ -138,11 +138,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	};
 
-	var sprite = new PIXI.Sprite.fromImage('./7_room2_a.jpg');
+	var sprite = new PIXI.Sprite.fromImage('./images/bg2.jpg');
 	stage.addChild(sprite);
 
 	// setTimeout(() => {
-	//   const sprite2 = new PIXI.Sprite.fromImage('./pixiv4.jpg');
+	//   const sprite2 = new PIXI.Sprite.fromImage('./images/pixiv4.jpg');
 	//   sprite2.y = 350;
 	//   stage.addChildAt(sprite2, 1);
 	// }, 1000)
@@ -158,7 +158,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	live2dSprite.x = -105;
 	// live2dSprite.y = -150;
 	live2dSprite.adjustScale(0, 0, 0.7);
-	live2dSprite.adjustTranslate(0.4, 0);
+	live2dSprite.adjustTranslate(0, 0);
 	live2dSprite.startRandomMotion('idle');
 
 	live2dSprite.on('click', function (evt) {
