@@ -46,6 +46,29 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  * 
+ * ==========================
+ * 
+ * MIT License
+ * 
+ * Copyright (c) 2019 Avamoe <https://github.com/avamoe>
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -117,8 +140,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	var modelHaru = {
 	  "type": "Live2D Model Setting",
 	  "name": "haru",
-	  "model": "assets/haru/haru_01.moc",
-	  "textures": ["assets/haru/haru_01.1024/texture_00.png", "assets/haru/haru_01.1024/texture_01.png", "assets/haru/haru_01.1024/texture_02.png"],
+	  "model": "assets/haru/haru_02.moc",
+	  "textures": ["assets/haru/haru_02.1024/texture_00.png", "assets/haru/haru_02.1024/texture_01.png", "assets/haru/haru_02.1024/texture_02.png"],
 	  "physics": "assets/haru/haru.physics.json",
 	  "pose": "assets/haru/haru.pose.json",
 	  "expressions": [{ "name": "f01", "file": "assets/haru/expressions/f01.exp.json" }, { "name": "f02", "file": "assets/haru/expressions/f02.exp.json" }, { "name": "f03", "file": "assets/haru/expressions/f03.exp.json" }, { "name": "f04", "file": "assets/haru/expressions/f04.exp.json" }, { "name": "f05", "file": "assets/haru/expressions/f05.exp.json" }, { "name": "f06", "file": "assets/haru/expressions/f06.exp.json" }, { "name": "f07", "file": "assets/haru/expressions/f07.exp.json" }, { "name": "f08", "file": "assets/haru/expressions/f08.exp.json" }],

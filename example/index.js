@@ -8,12 +8,12 @@ const stage = new PIXI.Container();
 const modelHaru = {
   "type":"Live2D Model Setting",
   "name":"haru",
-  "model":"assets/haru/haru_01.moc",
+  "model":"assets/haru/haru_02.moc",
   "textures":
   [
-    "assets/haru/haru_01.1024/texture_00.png",
-    "assets/haru/haru_01.1024/texture_01.png",
-    "assets/haru/haru_01.1024/texture_02.png"
+    "assets/haru/haru_02.1024/texture_00.png",
+    "assets/haru/haru_02.1024/texture_01.png",
+    "assets/haru/haru_02.1024/texture_02.png"
   ],
   "physics":"assets/haru/haru.physics.json",
   "pose":"assets/haru/haru.pose.json",
