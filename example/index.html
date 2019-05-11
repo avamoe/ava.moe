@@ -31,11 +31,65 @@
             }
             body {
                 background: grey;
+                font-family: Arial,sans-serif;
+            }
+            #section-dev {
+                color: #afd6ea;
+                position: fixed;
+                text-align: right;
+                right: 2%;
+                bottom: 5%;
+            }
+            .download-section-btn {
+                text-decoration: none;
+                background: #afd6ea;
+                border: none;
+                border-radius: 50px;
+                color: #f0f0f0;
+                font-size: 16px;
+                font-weight: bold;
+                letter-spacing: 1.5px;
+                padding: 18px 32px;
+                margin-top: 42px;
+                line-height: 1.42857143;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                display: inline-block;
+            }
+            .download-section-btn:focus, .download-section-btn:hover {
+                background: #ffffff;
+                color: #afd6ea;
+            }
+            .github-section-btn {
+                text-decoration: none;
+                background: black;
+                border: none;
+                border-radius: 50px;
+                color: #f0f0f0;
+                font-size: 16px;
+                font-weight: bold;
+                letter-spacing: 1.5px;
+                padding: 18px 32px;
+                margin-top: 42px;
+                line-height: 1.42857143;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                display: inline-block;
+            }
+            .github-section-btn:focus, .github-section-btn:hover {
+                background: #ffffff;
+                color: black;
             }
         </style>
     </head>
     <body>
         <div id="app"></div>
+        <div id="section-dev">
+            <a href="" class="download-section-btn">Download</a>
+            <a href="https://github.com/avamoe/Avalive" target="_blank" class="github-section-btn">Github</a>
+        </div>
         <script type="text/javascript" src="index.js" charset="utf-8"></script>
     </body>
 </html>
