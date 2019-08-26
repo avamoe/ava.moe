@@ -161,7 +161,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	};
 
-	var sprite = new PIXI.Sprite.fromImage('./images/bg2.jpg');
+	var sprite = new PIXI.Sprite.fromImage('./images/bg.jpg');
 	sprite.scale.x = Math.max(document.body.clientWidth / 1920, document.body.clientHeight / 1080);
 	sprite.scale.y = Math.max(document.body.clientWidth / 1920, document.body.clientHeight / 1080);
 	stage.addChild(sprite);
