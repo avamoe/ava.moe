@@ -1,1 +1,1 @@
-# [ava.moe](https://ava.moe)
+# [ava.moe](https://avamoe.github.io/ava.moe/)
